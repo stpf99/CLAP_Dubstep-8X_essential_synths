@@ -1,0 +1,628 @@
+{
+ "Daft Punk — French House": {
+  "saved": "2026-10-29T14:09:47",
+  "data": {
+   "generator": {
+    "style": "House",
+    "style_base": "House",
+    "bpm": 122,
+    "key": null,
+    "scale": "minor",
+    "bars": 128,
+    "energy": 0.72,
+    "density": 0.62,
+    "swing": 0.09,
+    "instruments": "kick,snare,hat,clap,openhat,sub,wobble,bass808,pluck,stab,epiano,organ,vox,riser,boom,zap,cowbell,shaker",
+    "speak_manual": false,
+    "speak_text": "",
+    "speak_theme": null
+   },
+   "board": {
+    "cells": [
+     [
+      "House",
+      "Electro",
+      2
+     ],
+     [
+      "House",
+      "House",
+      1
+     ]
+    ],
+    "strength": 0.45
+   },
+   "live": {
+    "mode": "current",
+    "locks": {
+     "style": true
+    },
+    "tod_on": false,
+    "tod_force": null,
+    "tod_factors": {
+     "Rano": 0.88,
+     "Popołudnie": 1.0,
+     "Wieczór": 1.06,
+     "Noc": 0.9
+    },
+    "arr_bars": 64,
+    "lookahead": 1,
+    "max_store": 60,
+    "return_live": true,
+    "mutate_p": 0.0,
+    "use_board": false,
+    "new_hybrids": false
+   }
+  }
+ },
+ "Daft Punk — Discovery Era": {
+  "saved": "2026-10-29T14:09:47",
+  "data": {
+   "generator": {
+    "style": "Electro",
+    "style_base": "Electro",
+    "bpm": 118,
+    "key": 4,
+    "scale": "minor",
+    "bars": 144,
+    "energy": 0.68,
+    "density": 0.55,
+    "swing": 0.06,
+    "instruments": "kick,snare,hat,clap,openhat,sub,wobble,bass808,pluck,stab,epiano,organ,vox,riser,boom,zap,cowbell,shaker",
+    "speak_manual": false,
+    "speak_text": "",
+    "speak_theme": null
+   },
+   "board": {
+    "cells": [
+     [
+      "Electro",
+      "House",
+      2
+     ],
+     [
+      "Electro",
+      "Space Electronica",
+      1
+     ]
+    ],
+    "strength": 0.35
+   },
+   "live": {
+    "mode": "current",
+    "locks": {
+     "style": true
+    },
+    "tod_on": false,
+    "tod_force": null,
+    "tod_factors": {
+     "Rano": 0.88,
+     "Popołudnie": 1.0,
+     "Wieczór": 1.06,
+     "Noc": 0.9
+    },
+    "arr_bars": 64,
+    "lookahead": 1,
+    "max_store": 60,
+    "return_live": true,
+    "mutate_p": 0.0,
+    "use_board": false,
+    "new_hybrids": false
+   }
+  }
+ },
+ "Kraftwerk — Berlin Sequences": {
+  "saved": "2026-10-29T14:09:47",
+  "data": {
+   "generator": {
+    "style": "Berlin School",
+    "style_base": "Berlin School",
+    "bpm": 112,
+    "key": 0,
+    "scale": "minor",
+    "bars": 160,
+    "energy": 0.55,
+    "density": 0.48,
+    "swing": 0.02,
+    "instruments": "kick,hat,sub,wobble,reese,pluck,pad,drone,theremin,bell,stab,shaker,riser,boom,organ,epiano",
+    "speak_manual": false,
+    "speak_text": "",
+    "speak_theme": null
+   },
+   "board": {
+    "cells": [
+     [
+      "Berlin School",
+      "Berlin School",
+      3
+     ],
+     [
+      "Berlin School",
+      "Electro",
+      1
+     ]
+    ],
+    "strength": 0.3
+   },
+   "live": {
+    "mode": "current",
+    "locks": {
+     "style": true
+    },
+    "tod_on": false,
+    "tod_force": null,
+    "tod_factors": {
+     "Rano": 0.88,
+     "Popołudnie": 1.0,
+     "Wieczór": 1.06,
+     "Noc": 0.9
+    },
+    "arr_bars": 64,
+    "lookahead": 1,
+    "max_store": 60,
+    "return_live": true,
+    "mutate_p": 0.0,
+    "use_board": false,
+    "new_hybrids": false
+   }
+  }
+ },
+ "Kraftwerk — Robotic Electro": {
+  "saved": "2026-10-29T14:09:47",
+  "data": {
+   "generator": {
+    "style": "Electro",
+    "style_base": "Electro",
+    "bpm": 120,
+    "key": 7,
+    "scale": "phrygian",
+    "bars": 128,
+    "energy": 0.6,
+    "density": 0.5,
+    "swing": 0.01,
+    "instruments": "kick,hat,sub,wobble,reese,pluck,pad,drone,theremin,bell,stab,shaker,riser,boom,organ,epiano",
+    "speak_manual": false,
+    "speak_text": "",
+    "speak_theme": null
+   },
+   "board": {
+    "cells": [
+     [
+      "Electro",
+      "Berlin School",
+      2
+     ],
+     [
+      "Electro",
+      "Raw Synthesis",
+      1
+     ]
+    ],
+    "strength": 0.4
+   },
+   "live": {
+    "mode": "current",
+    "locks": {
+     "style": true
+    },
+    "tod_on": false,
+    "tod_force": null,
+    "tod_factors": {
+     "Rano": 0.88,
+     "Popołudnie": 1.0,
+     "Wieczór": 1.06,
+     "Noc": 0.9
+    },
+    "arr_bars": 64,
+    "lookahead": 1,
+    "max_store": 60,
+    "return_live": true,
+    "mutate_p": 0.0,
+    "use_board": false,
+    "new_hybrids": false
+   }
+  }
+ },
+ "Vitalic — Electroclash": {
+  "saved": "2026-10-29T14:09:47",
+  "data": {
+   "generator": {
+    "style": "Electro",
+    "style_base": "Electro",
+    "bpm": 130,
+    "key": null,
+    "scale": "minor",
+    "bars": 128,
+    "energy": 0.85,
+    "density": 0.7,
+    "swing": 0.04,
+    "instruments": "kick,snare,hat,clap,openhat,sub,wobble,acid,hoover,stab,pluck,zap,riser,boom,fmbass,glitch,cowbell",
+    "speak_manual": false,
+    "speak_text": "",
+    "speak_theme": null
+   },
+   "board": {
+    "cells": [
+     [
+      "Electro",
+      "Hard Techno",
+      2
+     ],
+     [
+      "Electro",
+      "Techno",
+      1
+     ]
+    ],
+    "strength": 0.5
+   },
+   "live": {
+    "mode": "current",
+    "locks": {
+     "style": true
+    },
+    "tod_on": false,
+    "tod_force": null,
+    "tod_factors": {
+     "Rano": 0.88,
+     "Popołudnie": 1.0,
+     "Wieczór": 1.06,
+     "Noc": 0.9
+    },
+    "arr_bars": 64,
+    "lookahead": 1,
+    "max_store": 60,
+    "return_live": true,
+    "mutate_p": 0.0,
+    "use_board": false,
+    "new_hybrids": false
+   }
+  }
+ },
+ "Vitalic — Poney / High Energy": {
+  "saved": "2026-10-29T14:09:47",
+  "data": {
+   "generator": {
+    "style": "Hard Techno",
+    "style_base": "Hard Techno",
+    "bpm": 135,
+    "key": 2,
+    "scale": "phrygian",
+    "bars": 112,
+    "energy": 0.9,
+    "density": 0.75,
+    "swing": 0.03,
+    "instruments": "kick,snare,hat,clap,openhat,sub,wobble,acid,hoover,stab,pluck,zap,riser,boom,fmbass,glitch,cowbell",
+    "speak_manual": false,
+    "speak_text": "",
+    "speak_theme": null
+   },
+   "board": {
+    "cells": [
+     [
+      "Hard Techno",
+      "Electro",
+      3
+     ],
+     [
+      "Hard Techno",
+      "Techno Trax",
+      1
+     ]
+    ],
+    "strength": 0.45
+   },
+   "live": {
+    "mode": "current",
+    "locks": {
+     "style": true
+    },
+    "tod_on": false,
+    "tod_force": null,
+    "tod_factors": {
+     "Rano": 0.88,
+     "Popołudnie": 1.0,
+     "Wieczór": 1.06,
+     "Noc": 0.9
+    },
+    "arr_bars": 64,
+    "lookahead": 1,
+    "max_store": 60,
+    "return_live": true,
+    "mutate_p": 0.0,
+    "use_board": false,
+    "new_hybrids": false
+   }
+  }
+ },
+ "Justice — Cross / Heavy": {
+  "saved": "2026-10-29T14:09:47",
+  "data": {
+   "generator": {
+    "style": "House",
+    "style_base": "House",
+    "bpm": 125,
+    "key": null,
+    "scale": "minor",
+    "bars": 128,
+    "energy": 0.82,
+    "density": 0.68,
+    "swing": 0.07,
+    "instruments": "kick,snare,hat,clap,sub,wobble,bass808,stab,pluck,organ,epiano,vox,riser,boom,crash,shaker",
+    "speak_manual": false,
+    "speak_text": "",
+    "speak_theme": null
+   },
+   "board": {
+    "cells": [
+     [
+      "House",
+      "Electro",
+      2
+     ],
+     [
+      "House",
+      "Hard Techno",
+      1
+     ]
+    ],
+    "strength": 0.55
+   },
+   "live": {
+    "mode": "current",
+    "locks": {
+     "style": true
+    },
+    "tod_on": false,
+    "tod_force": null,
+    "tod_factors": {
+     "Rano": 0.88,
+     "Popołudnie": 1.0,
+     "Wieczór": 1.06,
+     "Noc": 0.9
+    },
+    "arr_bars": 64,
+    "lookahead": 1,
+    "max_store": 60,
+    "return_live": true,
+    "mutate_p": 0.0,
+    "use_board": false,
+    "new_hybrids": false
+   }
+  }
+ },
+ "Tangerine Dream — Cosmic Sequences": {
+  "saved": "2026-10-29T14:09:47",
+  "data": {
+   "generator": {
+    "style": "Space Electronica",
+    "style_base": "Space Electronica",
+    "bpm": 108,
+    "key": null,
+    "scale": "dorian",
+    "bars": 192,
+    "energy": 0.5,
+    "density": 0.42,
+    "swing": 0.02,
+    "instruments": "kick,hat,sub,wobble,reese,pad,drone,pluck,choir,bell,theremin,supersaw,riser,boom,strings,flute",
+    "speak_manual": false,
+    "speak_text": "",
+    "speak_theme": null
+   },
+   "board": {
+    "cells": [
+     [
+      "Space Electronica",
+      "Berlin School",
+      2
+     ],
+     [
+      "Space Electronica",
+      "Space Electronica",
+      1
+     ]
+    ],
+    "strength": 0.35
+   },
+   "live": {
+    "mode": "current",
+    "locks": {
+     "style": true
+    },
+    "tod_on": false,
+    "tod_force": null,
+    "tod_factors": {
+     "Rano": 0.88,
+     "Popołudnie": 1.0,
+     "Wieczór": 1.06,
+     "Noc": 0.9
+    },
+    "arr_bars": 64,
+    "lookahead": 1,
+    "max_store": 60,
+    "return_live": true,
+    "mutate_p": 0.0,
+    "use_board": false,
+    "new_hybrids": false
+   }
+  }
+ },
+ "Aphex Twin — Experimental IDM": {
+  "saved": "2026-10-29T14:09:47",
+  "data": {
+   "generator": {
+    "style": "Experimental",
+    "style_base": "Experimental",
+    "bpm": 140,
+    "key": null,
+    "scale": "phrygian",
+    "bars": 96,
+    "energy": 0.65,
+    "density": 0.58,
+    "swing": 0.12,
+    "instruments": "kick,snare,hat,rim,tom,sub,wobble,reese,screech,pluck,glitch,theremin,zap,riser,boom,neuro,hollow",
+    "speak_manual": false,
+    "speak_text": "",
+    "speak_theme": null
+   },
+   "board": {
+    "cells": [
+     [
+      "Experimental",
+      "Raw Synthesis",
+      2
+     ],
+     [
+      "Experimental",
+      "DnB",
+      1
+     ]
+    ],
+    "strength": 0.5
+   },
+   "live": {
+    "mode": "current",
+    "locks": {
+     "style": true
+    },
+    "tod_on": false,
+    "tod_force": null,
+    "tod_factors": {
+     "Rano": 0.88,
+     "Popołudnie": 1.0,
+     "Wieczór": 1.06,
+     "Noc": 0.9
+    },
+    "arr_bars": 64,
+    "lookahead": 1,
+    "max_store": 60,
+    "return_live": true,
+    "mutate_p": 0.0,
+    "use_board": false,
+    "new_hybrids": false
+   }
+  }
+ },
+ "Electroclash Night": {
+  "saved": "2026-10-29T14:09:47",
+  "data": {
+   "generator": {
+    "style": "Electro",
+    "style_base": "Electro",
+    "bpm": 128,
+    "key": null,
+    "scale": "minor",
+    "bars": 128,
+    "energy": 0.78,
+    "density": 0.65,
+    "swing": 0.05,
+    "instruments": "kick,snare,hat,clap,sub,wobble,hoover,stab,pluck,vox,zap,riser,boom,openhat,cowbell,glitch",
+    "speak_manual": false,
+    "speak_text": "",
+    "speak_theme": null
+   },
+   "board": {
+    "cells": [
+     [
+      "Electro",
+      "Techno",
+      1
+     ],
+     [
+      "Electro",
+      "Hard Techno",
+      1
+     ],
+     [
+      "Electro",
+      "House",
+      1
+     ]
+    ],
+    "strength": 0.4
+   },
+   "live": {
+    "mode": "random",
+    "locks": {
+     "style": false
+    },
+    "tod_on": true,
+    "tod_force": null,
+    "tod_factors": {
+     "Rano": 0.88,
+     "Popołudnie": 1.0,
+     "Wieczór": 1.1,
+     "Noc": 0.95
+    },
+    "arr_bars": 64,
+    "lookahead": 2,
+    "max_store": 40,
+    "return_live": true,
+    "mutate_p": 0.25,
+    "use_board": true,
+    "new_hybrids": false
+   }
+  }
+ },
+ "French Touch Live Set": {
+  "saved": "2026-10-29T14:09:47",
+  "data": {
+   "generator": {
+    "style": "House",
+    "style_base": "House",
+    "bpm": 124,
+    "key": null,
+    "scale": "minor",
+    "bars": 128,
+    "energy": 0.75,
+    "density": 0.6,
+    "swing": 0.08,
+    "instruments": "kick,snare,hat,clap,openhat,sub,wobble,bass808,pluck,stab,epiano,organ,vox,riser,boom,zap,cowbell,shaker",
+    "speak_manual": false,
+    "speak_text": "",
+    "speak_theme": null
+   },
+   "board": {
+    "cells": [
+     [
+      "House",
+      "Electro",
+      2
+     ],
+     [
+      "House",
+      "House",
+      1
+     ],
+     [
+      "Electro",
+      "House",
+      1
+     ]
+    ],
+    "strength": 0.4
+   },
+   "live": {
+    "mode": "random",
+    "locks": {
+     "style": false
+    },
+    "tod_on": true,
+    "tod_force": null,
+    "tod_factors": {
+     "Rano": 0.9,
+     "Popołudnie": 1.0,
+     "Wieczór": 1.08,
+     "Noc": 0.92
+    },
+    "arr_bars": 80,
+    "lookahead": 2,
+    "max_store": 50,
+    "return_live": true,
+    "mutate_p": 0.35,
+    "use_board": true,
+    "new_hybrids": true
+   }
+  }
+ }
+}
