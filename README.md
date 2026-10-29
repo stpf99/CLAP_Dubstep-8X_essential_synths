@@ -1,3 +1,5 @@
+https://github.com/stpf99/CLAP_Dubstep-8X_essential_synths/blob/5fe307bc62167668da7cae9bb96e5ce442736005/DS-Dubstep-Studio-v8-final.zip
+
 # DS Dubstep Kit — 8 wtyczek CLAP (Bitwig, bez GUI)
 
 Jeden silnik (`src/ds_engine.h`), 8 wtyczek (`src/ds_plugin.cpp`). Bitwig rysuje generyczne suwaki z parametrów.
