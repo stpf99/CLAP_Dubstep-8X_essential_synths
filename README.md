@@ -1,4 +1,6 @@
-https://github.com/stpf99/CLAP_Dubstep-8X_essential_synths/blob/565ae699e0f03bb12933a2c8ab60e34adce3bc1d/DS-Studio-3-noum.zip
+
+
+
 
 # DS Dubstep Kit — 29 wtyczek CLAP (Bitwig, bez GUI)
 
