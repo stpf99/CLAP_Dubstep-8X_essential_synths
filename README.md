@@ -1,7 +1,3 @@
-
-
-
-
 # DS Dubstep Kit — 29 wtyczek CLAP (Bitwig, bez GUI)
 
 Jeden silnik (`src/ds_engine.h`, mowa: `src/ds_speech.h`), wtyczki w `src/ds_plugin.cpp`. Bitwig rysuje generyczne suwaki z parametrów.
@@ -170,6 +166,34 @@ jeśli go nie ma, powstaje domyślny z opisem każdego klucza (chmod 600, bo są
 
 W GUI (Live → zakładka **Icecast2 / config.txt**): „Zapisz config.txt" (podmienia tylko wartości, komentarze zostają; zapisuje też bieżące ustawienia zakładki Generator do `[generator]`),
 „Przeładuj", „Otwórz". Ustawienia połączenia zmienione w trakcie nadawania są stosowane po ok. 1 s bez edycji (nadawanie łączy się ponownie, odsłuch lokalny nie przerywa).
+
+## RTMP + lekkie wideo na żywo (obok Icecast2)
+
+Zakładka Live → **RTMP + wideo** albo `config.txt`:
+
+```ini
+[icecast]
+enabled = no            # Icecast i RTMP są niezależne — można oba naraz
+local_playback = no     # serwer bez karty dźwiękowej: tylko nadawanie
+
+[rtmp]
+enabled = yes
+url = rtmp://a.rtmp.youtube.com/live2
+key = xxxx-xxxx-xxxx
+v_bitrate = 1500
+
+[video]
+size = 854x480
+fps = 25
+scene = auto            # morph | ring | tunnel | bars | scope
+quality = auto          # sam dobiera poziom do CPU/RAM; albo max | balanced | low | minimal | 0-6
+cpu_target = 85
+```
+
+Bez GUI: `./ds-studio live --rtmp --no-local` (URL/klucz z `config.txt` albo `--rtmp-url`, `--rtmp-key`). Podgląd wyglądu i koszt renderu bez nadawania:
+`./ds-studio video preview --audio utwor.wav --out podglad.mp4 --scene morph --quality balanced --width 854 --height 480`.
+Szczegóły działania i regulatora jakości: `CHANGES.md` (pierwszy wpis) i komentarze w `dubstep_studio/vid/livefx.py`. Test lokalny bez YouTube:
+`ffmpeg -listen 1 -i rtmp://127.0.0.1:1935/live/test -c copy out.flv` w drugim terminalu, w `[rtmp]` `url = rtmp://127.0.0.1:1935/live`, `key = test`.
 
 ## Icecast2
 PCM z silnika Live → `ffmpeg` (libmp3lame / libvorbis / libopus) → `icecast://źródło:hasło@host:port/mount`. Wymaga `ffmpeg` i działającego serwera Icecast2 (hasło źródła = `<source-password>` z `icecast.xml`).
