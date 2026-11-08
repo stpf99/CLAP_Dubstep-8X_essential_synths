@@ -19,7 +19,7 @@ wymaga uzyskania Licencji Komercyjnej od wyłącznego dysponenta praw (Tomasz Ś
    przez produkt końcowy, przeliczana proporcjonalnie do udziału tego kodu w całości 
    oprogramowania/firmware urządzenia:
    
-   Opłata = Zysk Netto całkowitej sprzedaż przedmiotów lub kodu używajaćęgo ten kod x 10% x (Wkład Kodu / Całkowity Kod Firmware) lub gdy jest mniejsza niz 100 Euro to mzusi byc zaokraglona do 100 Euro i wypłacona.
+   Opłata = Zysk Netto całkowitej sprzedaż przedmiotów lub kodu używajaćęgo ten kod x 10% x (Wkład Kodu / Całkowity Kod Firmware) lub gdy jest mniejsza niz 100 Euro to musi byc zaokraglona do 100 Euro i wypłacona.
    
    *(gdzie minimalny przelicznik wkładu wynosi 1%, a maksymalny 100%)*.
 
@@ -27,3 +27,5 @@ wymaga uzyskania Licencji Komercyjnej od wyłącznego dysponenta praw (Tomasz Ś
    Przed wprowadzeniem produktu na rynek komercyjny należy skontaktować się bezpośrednio 
    za pośrednictwem poczty e-mail w celu zgłoszenia wdrożenia lub dokonać płatności 
    bezpośrednio na wskazany rachunek / PayPal z opisem wdrożenia komercyjnego.
+
+Powyższe nie dotyczy autora jako potencjalnej firmy lub podmiotu chcącego w takim przypadku użyć kodu.
