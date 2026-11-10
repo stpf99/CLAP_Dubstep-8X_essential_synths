@@ -1,3 +1,7 @@
+
+https://github.com/stpf99/CLAP_Dubstep-8X_essential_synths/blob/452d47d33f279244d0bdeff5c0bb29be8d70a10a/DS-Studio-7-retro-tv.zip
+
+
 # DS Dubstep Kit — 51 wtyczek CLAP (Bitwig, bez GUI)
 
 Jeden silnik (`src/ds_engine.h`, mowa: `src/ds_speech.h`), opakowanie CLAP w `src/ds_plugin.cpp`. Bitwig rysuje generyczne suwaki z parametrów.
