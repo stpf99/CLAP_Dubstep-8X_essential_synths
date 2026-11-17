@@ -1,5 +1,4 @@
-
-https://github.com/stpf99/CLAP_Dubstep-8X_essential_synths/blob/d82c5933f63ad9a821867f0185dab420bd81763b/DS-Studio-7-unified.zip
+https://github.com/stpf99/CLAP_Dubstep-8X_essential_synths/blob/69f45bf93ce306a847025924d8566be7c75d8b59/DS-Studio-9.zip
 
 
 # DS Dubstep Kit — 51 wtyczek CLAP (Bitwig, bez GUI)
