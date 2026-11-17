@@ -1,5 +1,5 @@
 
-https://github.com/stpf99/CLAP_Dubstep-8X_essential_synths/blob/452d47d33f279244d0bdeff5c0bb29be8d70a10a/DS-Studio-7-retro-tv.zip
+https://github.com/stpf99/CLAP_Dubstep-8X_essential_synths/blob/d82c5933f63ad9a821867f0185dab420bd81763b/DS-Studio-7-unified.zip
 
 
 # DS Dubstep Kit — 51 wtyczek CLAP (Bitwig, bez GUI)
